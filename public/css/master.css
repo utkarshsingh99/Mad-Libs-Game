@@ -1,0 +1,54 @@
+body{
+  background-image: url('blue_sky.png');
+  background-size: cover;
+}
+
+.main {
+  margin: auto;
+  width: 50%;
+  margin-top: 5%;
+  padding: auto;
+}
+
+#question {
+  text-align: center;
+  font-size: 22px;
+}
+
+#input {
+  margin: auto;
+  width: 95%;
+  height: 40px;
+  border-radius: 1px;
+  box-shadow: 5px 5px 5px;
+  border: 0px;
+  padding: 5px;
+  font-size: 19px;
+}
+
+#submit {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 275px;
+  height: 39px;
+  font-size: 19px;
+  color: black;
+  background: linear-gradient(to right, #FFE4B5, #BDB76B);
+  border: 0px;
+  box-shadow: 3px 3px;
+  border-radius: 6px;
+}
+#h2 {
+  margin: auto;
+  margin-top: 29px;
+}
+
+#h3 {
+  margin: auto;
+  margin-top: 29px;
+}
+
+#submit:hover {
+background: linear-gradient(to left, #FFE4B5, #BDB76B);
+}
